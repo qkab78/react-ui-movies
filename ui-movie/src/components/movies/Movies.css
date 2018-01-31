@@ -1,0 +1,18 @@
+.card{
+  width: 20rem;
+}
+.list-inline{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.list-inline-item{
+  margin-right: 20px!important;
+  font-size: 50px;
+}
+
+button{
+  font-size: 200px;
+  font-family: fantasy;
+
+}

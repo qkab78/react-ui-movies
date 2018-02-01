@@ -21,7 +21,7 @@ class App extends Component {
               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                   <Link to="/movies" className="nav-item nav-link active">Accueil <span className="sr-only">(current)</span></Link>
-                  <Link to="/login" className="nav-item nav-link">Connexion</Link>
+                  <Link to="/" className="nav-item nav-link">Connexion</Link>
                   <Link to="/movies" className="nav-item nav-link">Films</Link>
                   <Link to="/video" className="nav-item nav-link">Player</Link>
                 </div>
@@ -31,7 +31,7 @@ class App extends Component {
           <Route path="/video" component={VideoTrailer}/>
           <Route path="/" component={MovieList}/>
           <Route path="/movies" component={MovieList}/>
-          <Route path="/login" component={LoginForm}/>
+          <Route path="/" component={LoginForm}/>
         </div>
     );
   }
